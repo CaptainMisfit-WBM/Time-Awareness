@@ -1,0 +1,1 @@
+return jsonify({'phoenix_time': phoenix_time_obj.strftime("%I:%M:%S %p")})

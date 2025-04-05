@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "app.py",
+      "src": "index.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/get_phoenix_time",
-      "dest": "app.py"
+      "dest": "index.py"
     }
   ]
 }
